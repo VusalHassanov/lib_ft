@@ -6,7 +6,7 @@
 /*   By: vhasanov <vhasanov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 20:02:00 by vhasanov          #+#    #+#             */
-/*   Updated: 2024/12/06 15:14:22 by vhasanov         ###   ########.fr       */
+/*   Updated: 2024/12/06 19:05:29 by vhasanov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,4 +40,5 @@ int		ft_atoi(const char *str);
 void	*ft_calloc(size_t n, size_t element_size);
 char	*ft_strdup(const char *str);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 #endif
